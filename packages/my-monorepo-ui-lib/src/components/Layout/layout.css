@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 400px; }
+  .wrapper .wrapper-item {
+    border: 1px solid black; }
+    .wrapper .wrapper-item.header {
+      width: 100%; }
+    .wrapper .wrapper-item.left {
+      width: 33%; }
+    .wrapper .wrapper-item.right {
+      width: 33%; }
+    .wrapper .wrapper-item.center {
+      width: 33%; }

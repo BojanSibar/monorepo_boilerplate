@@ -3,6 +3,7 @@ import "./App.css";
 import {
   MyNewComponent,
   Button,
+  Layout,
   useRenderCounter
 } from "@my-org/my-monorepo-ui-lib";
 
@@ -16,12 +17,16 @@ function App() {
   useRenderCounter("App");
   return (
     <div className="App">
-      <header className="App-header">
-        <MyNewComponent
-          text={`this is our library component for increment ${test}`}
-        />
-        <Button onClick={onButtonClick}>TEST</Button>
-      </header>
+      <Layout
+        left={null}
+        right={null}
+        center={<Button onClick={onButtonClick}>TEST</Button>}
+        header={
+          <MyNewComponent
+            text={`this is our library component for increment ${test}`}
+          />
+        }
+      />
     </div>
   );
 }

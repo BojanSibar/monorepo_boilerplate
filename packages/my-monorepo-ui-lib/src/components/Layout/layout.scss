@@ -1,0 +1,23 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 400px;
+  .wrapper-item {
+    border: 1px solid black;
+
+    &.header {
+      width: 100%;
+    }
+    &.left {
+      width: 33%;
+    }
+    &.right {
+      width: 33%;
+    }
+    &.center {
+      width: 33%;
+    }
+  }
+}

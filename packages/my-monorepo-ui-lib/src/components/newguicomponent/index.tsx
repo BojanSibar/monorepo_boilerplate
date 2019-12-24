@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from "react";
 
-import "./newguicomponent.scss";
+import "./newguicomponent.css";
 
 interface Props {
   node: ReactNode;
