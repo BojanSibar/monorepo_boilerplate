@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
+    "@storybook/addon-actions": "^5.2.8",
     "@storybook/react": "^5.2.5",
     "@types/storybook__react": "^4.0.2",
     "awesome-typescript-loader": "^5.2.1",

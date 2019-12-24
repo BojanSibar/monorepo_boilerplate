@@ -1,1 +1,2 @@
-export * from './myuihelper';
+export * from "./myuihelper";
+export * from "./renderCountHook";
